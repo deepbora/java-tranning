@@ -20,6 +20,7 @@ class Newx1 implements X1 {
         if (a <= 50 && a>=0) {
             System.out.println("Good Mornning");
 
+         
         }
     }
 
@@ -35,6 +36,9 @@ public class Interfaces_inheritance {
         
 //        o1.a=200;//is not allow becoz interface varible are finale
         System.out.println(o1.a);
+        
+        //dyanmic method dispatch
+        X1 o2=new Newx1();//this is allow
 
     }
 

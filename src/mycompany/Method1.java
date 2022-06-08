@@ -3,6 +3,7 @@ package mycompany;
 import java.util.Scanner;
 
 public class Method1 {
+    static int a=100;
 
     public static void main(String[] args) {
 
@@ -35,6 +36,8 @@ public class Method1 {
 
             System.out.println("Odd");
         }
+        
+        System.out.println(a);
 
     }
 

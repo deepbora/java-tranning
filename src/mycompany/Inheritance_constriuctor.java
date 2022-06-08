@@ -1,5 +1,5 @@
 package mycompany;
-
+import mycompany.base;
 class base1 {
 
     //constructor---
@@ -73,6 +73,13 @@ public class Inheritance_constriuctor {
 //        
         
         derive2 o3=new derive2(200,300,400);
+        
+        
+        //we can alow access public class ,method, varibale another class same package or another package-----
+        base o4 =new base();
+        o4.setData1(10);
+        
+        System.out.println("From derive class object data3 :"+o4.getData1());
 
     }
 

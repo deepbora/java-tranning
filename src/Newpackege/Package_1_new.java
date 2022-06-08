@@ -5,15 +5,17 @@
  */
 package Newpackege;
 
+
+
 public class Package_1_new {
     
     
-    public void display(){
-        System.out.println("NewPackage sucssesfully called");
+   protected void display(){
+        System.out.println("NewPackage Dispaly Method sucssesfully called");
     }
     public void run(){
         
-        System.out.println("NewRun Method is called");
+        System.out.println("NewPackage Run Method is called");
         
         
     }

@@ -21,7 +21,7 @@ types of package--
 
 package name--
 
-.java.lang--->string,math,threads,exception(for all--*)
+.java.lang--->string,math,threads,exception(for all--*) by default is automatically access by java compiler so we can not import
 
 .java.util--->tables,random,date,Scanner(for all--*)
 

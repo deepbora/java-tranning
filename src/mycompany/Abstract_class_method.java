@@ -62,6 +62,8 @@ class Abs2 extends Abs{
 }
 //hierarichal inheritance--
  class Abs3 extends Abs{
+     
+ int z;
      @Override
      void greet(){
          
@@ -74,6 +76,7 @@ class Abs2 extends Abs{
          System.out.println("Gree2 Abs3 run");
          
      }
+     
 
 }
 
@@ -121,5 +124,5 @@ public class Abstract_class_method {
              X.greet();//allow
              X.greet2();//allow
              X.num2();//allow
-    }
+                }
 }
