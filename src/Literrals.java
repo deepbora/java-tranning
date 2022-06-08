@@ -26,6 +26,7 @@ public class Literrals {
         byte fh;//---- defatlt value(byte) 0
         short f=1889;//----(short)0
         long  bn =89898L;//----L0
+        
        
     }
     
